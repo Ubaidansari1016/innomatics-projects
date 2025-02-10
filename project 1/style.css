@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    font-family: Arial ;
+    border: border-box;
+}
+/* header part  */
+.header{
+    height: 45px;
+    background-color: #E63135;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logo-background{
+    height: 28px;
+    width: 126px;
+}
+.header_logo{
+    height: 23px;
+    width: 118px;
+    margin-left: 12px;
+}
+
+.enquire{
+    height: 21px;
+    width: 103px;
+    background-size: cover;
+}
+.enquire-no-firsr-background{
+    height: 34px;
+    width: 211px;
+}
+.enquire-no-firsr{
+    background-color: #000000;
+    border-radius: 10px;
+    color: #ffffff;
+    height: 34px;
+    width: 156px;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.enquire-no-second-background{
+    height: 34px;
+    width: 211px;
+    margin: 2px 0px;
+    align-items: center;
+}
+.enquire-no-second{
+    background-color: #000000;
+    border-radius: 10px;
+    color: #ffffff;
+    height: 34px;
+    width: 183px;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.enquire-no-third-background{
+    height: 34px;
+    width: 300px;
+    margin: 2px 0px;
+    align-items: center;
+}
+.enquire-no-third{
+    background-color: #000000;
+    height: 34px;
+    width: 221px;
+    border-radius: 10px;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.border{
+    border: 2px solid ;
+}
+.border:hover{
+    border: transparent;
+}
+/* navigation part */
+.navbar-logo{
+    height: 70px;
+    border-bottom: solid 0.5px rgb(99, 85, 85);
+    background-color: #ffffff;
+    color: #666666;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 60px;
+    width: 361px;
+    margin-left: 50px;
+}
+.logo{
+    background-image: url(image/Innomatics-Logo1.webp);
+    background-size: cover;
+    height: 56px;
+    width: 307px;
+}
+.navbar-background{
+    height: 60px;
+    width: 840px;
+    color: #000000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    height: 40px;
+    width: 825px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.nav-home{
+    height: 40px;
+    width: 60px;
+    padding: 10px;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.nav-home:hover{
+    background-color: #E63135;
+    border-radius: 5px;
+    height: 20px;
+}
+.nav-home a{
+    text-decoration: none;
+    height: 16px;
+    width: 46px;
+    color: #000000;
+    font: 16px;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.Courses{
+    padding: 12px;
+    height: 40px;
+    width: 101px;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.Courses:hover{
+    background-color: #E63135;
+    border-radius: 5px;
+    height: 20px;
+}
+.nav-program{
+    align-items: center;
+    height: 40px;
+    width: 178px;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.nav-program:hover{
+    background-color: #E63135;
+    border-radius: 5px;
+    height: 45px;
+}
+.nav-program a{
+    text-decoration: none;
+    color: #000000;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.nav-internship{
+    padding: 12px;
+    height: 40px;
+    width: 80px;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.nav-internship:hover{
+    background-color: #E63135;
+    border-radius: 5px;
+    height: 20px;
+}
+.nav-about{
+    padding: 12px;
+    height: 40px;
+    
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.nav-about:hover{
+    background-color: #E63135;
+    border-radius: 5px;
+    height: 20px;
+}
+.nav-event{
+    padding: 12px;
+    height: 40px;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.nav-event:hover{
+    background-color: #E63135;
+    border-radius: 5px;
+    height: 20px;
+}
+.pay-now{
+    background-color: #000000;
+    border-radius: 12px;
+    height: 38px;
+    width: 120px;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 60px;
+    
+}
+.pay i{
+    height: 16;
+    width: 10px;
+    color: #ffffff;
+}
+.pay a{
+    width: 80px;
+    height: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+
+}
+.hero-section{
+    background-image: url(image/hero-section4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    /* display: block; */
+}
+/* contant section */
+.contant{
+    height: 760px;
+    width: 100%;
+    color: #666666;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+.contant1{
+    height: 100%px;
+    width: 1400px;
+    display: flex;
+    justify-content: space-evenly;
+    overlay: none;
+
+}
+.contant-box1{
+   
+    height: 680px;
+    width: 600px;
+    margin: 0px 58px 0px 0px;
+    padding: 30px 0px;
+}
+
+.contant-button{
+    height: 46px;
+    width: 100%;
+    
+
+}
+.contant-button a{
+    text-decoration: none;
+    height: 46px;
+    width: 138px;
+    background-color: #E63135;
+    color: #ffffff;
+    font-size: 20px;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.contant-button a:hover{
+    background-color: #000000;
+}
+.contant-box2{
+  
+    height: 580px;
+    width: 600px;
+    padding: 30px 0px;
+}
+.box{
+   
+    height: 260px;
+    width: 100%px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-box1{
+   
+    height: 212px;
+    width: 235px;
+    border-radius: 5px;
+    border: solid 1px rgb(234, 232, 230);
+    border-bottom: solid 4px rgb(234, 232, 228);
+    margin: 0px 58px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-box1:hover{
+    border-bottom: solid 4px #E63135;
+}
+.bub-box1-contant{
+   height: 138px; 
+   width: 184px;
+   color: #000000;
+   font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.sub-box2{
+   
+    height: 212px;
+    width: 235px;
+    border-radius: 5px;
+    border: solid 1px rgb(234, 232, 230);
+    border-bottom: solid 4px rgb(234, 232, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.sub-box2:hover{
+    border-bottom: solid 4px #E63135;
+}
+.bub-box2-contant{
+    height: 138px; 
+    width: 184px;
+    color: #000000;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.sub-box3{
+   
+    height: 212px;
+    width: 235px;
+    border-radius: 5px;
+    border: solid 1px rgb(234, 232, 230);
+    border-bottom: solid 4px rgb(234, 232, 228);
+    margin: 0px 58px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-box3:hover{
+    border-bottom: solid 4px #E63135;
+}
+.bub-box3-contant{
+    height: 138px; 
+    width: 184px;
+    color: #000000;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sub-box4{
+    
+    height: 212px;
+    width: 235px;
+    border-radius: 5px;
+    border: solid 1px rgb(234, 232, 230);
+    border-bottom: solid 4px rgb(234, 232, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-box4:hover{
+    border-bottom: solid 4px #E63135;
+}
+.bub-box4-contant{
+    height: 138px; 
+    width: 184px;
+    color: #000000;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-first-div{
+    background-color: #000000;
+    height: 550px;
+    width: 100%;
+    padding: 13px 0px;
+    display: flex;
+    justify-content: center;
+}
+.footer-second-div{
+   
+    height: 100%px;
+    width: 1140px;
+    display: flex;
+}
+.sub-second-footer-div1{
+    
+    height: 100%;
+    width: 378px;
+    margin: 0px 57px 0px 0px;
+
+}
+.sub-second-footer-div1 p{
+    height: 260px;
+    width: 378px;
+    color: #bcbcbc;
+    font-size: 19px;
+}
+.sub-second-footer-div2{
+    
+    height: 100%;
+    width: 270px;
+    margin: 0px 57px 0px 0px;
+}
+.sub-second-footer-div3{
+    height: 100%;
+    width: 378px;
+
+}
+
+/* Trending Courses section */
+
+.course-section{
+    background-color: #000000;
+    height: 611px;
+    width:100% ;
+    justify-items: center;
+}
+.course-box{
+    height: 500px;
+    width: 950px;
+    display: flex;
+}
+.sub-course-box{
+    height: 465px;
+    width: 281px;
+    border: solid 2px white;
+}
+.sub-course-box img{
+    height: 187px;
+    width: 280px;
+}
+
+/* Advantages of training at Innomatics */
+.advantages{
+    background-color: #ededed;
+    height: 560px;
+    width: 100%;
+    justify-items: center;
+}
+.advantage-box{
+    height: 100%;
+    width: 1200px;
+    display: flex;
+}
+.sub-advantage-box{
+    height: 100%;
+    width: 600px;
+}
+
+
+/* footer contact section */
+.footer_contact_box1{
+    height: 119px;
+    width: 1005;
+    display: flex;
+}
+.footer_contact_box2{
+    height: 142px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+}
+.footer_contact_box3{
+    height: 119px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+}
+.footer_contact_box4{
+    height: 71px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+}
+.footer_contact_box5{
+    height: 24px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+}
